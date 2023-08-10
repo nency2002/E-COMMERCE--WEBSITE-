@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home & kitchen</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <!-- header -->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row justifly-content align-items">
+                    <div class="logo">
+                        <div class="row">
+                            <h2 class="rubik">NK</h2>
+                            <p>E-Mart</p>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Search Nency.in" id="value"><button id="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="cart">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-header ">
+            <div class="container">
+                <div class="second row justifly-center ">
+                    <nav>
+                        <ul class="row ">
+                            <li>
+                                <a href="INDEX.HTML">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">PROFILE</a>
+                            </li>
+                            <li>
+                                <a href="#">PRODUCTS</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="electronics.html">Electronics</a>
+                                    </li>
+                                    <li>
+                                        <a href="fashion.html">Fashion</a>
+                                    </li>
+                                    <li>
+                                        <a href="homekitchen.html">Home & Kitchen</a>
+                                    </li>
+                                    <li>
+                                        <a href="furniture.html">Furniture</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- page section -->
+    <section class="electronics black">
+        <div class="container">
+            <div class="row">
+                <div class="w-20">
+                    <div class="btns">
+                        <h3>price</h3>
+                        <input type="radio" id="lth" name="fav_language"> <span>low to high</span>
+                        <br/>
+                        <input type="radio" id="htl" name="fav_language"> <span>high to low</span>
+                    </div>
+                    <div class="btn">
+                        <h3>categorly</h3>
+                        <input type="radio" id="water-bottle" name="fav_language"> <span>water-bottle</span>
+                        <br/>
+                        <input type="radio" id="lunch-box" name="fav_language"> <span>lunch-box</span>
+                        <br/>
+                        <input type="radio" id="coffee-mug" name="fav_language"> <span>coffee-mug</span>
+                        <br/>
+                        <input type="radio" id="dinnerset" name="fav_language"> <span>dinnerset</span>
+                        <br/>
+                        <input type="radio" id="wall-clock" name="fav_language"> <span>wall-clock</span>
+                        <br/>
+                        <input type="radio" id="bulbs-home" name="fav_language"> <span>bulbs-home</span>
+                    </div>
+                </div>
+                <div class="w-80">
+                    <div id="sidebarui"></div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="head row justifly-content">
+                    <p>MY CART</p>
+                <i class="fa-solid fa-xmark colse"></i>
+                </div>
+                <div id="cartItem" class="white">your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <div id="total"> 0.00</div>
+                </div>
+                <button class="btn">
+                    <a href="ordersubmit.html">ORDER SUBMITTED</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script src="home.js"></script>
+</html>
